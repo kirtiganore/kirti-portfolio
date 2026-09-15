@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Engineering showcase for Kirti Vinay Ganore — coding patterns, architecture, AI and full-stack development.">
+<meta name="theme-color" content="#0d1117">
+<title>Dev Lab | Kirti Vinay Ganore</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span>~/</span>kirti-ganore</a>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Tech Stack</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="lab.html">Dev Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button id="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="page-hero wrap">
+  <div class="eyebrow">06 / DEV LAB</div>
+  <h1>The page recruiters can use to understand how I build.</h1>
+  <p class="lead">A visual showcase of engineering patterns and innovation areas represented by my experience and projects.</p>
+</section>
+
+<section class="wrap section">
+  <div class="lab-grid">
+    <article class="lab-card">
+      <small>BACKEND PATTERN</small><h2>API-first services</h2>
+      <div class="flow"><span>Request</span><i>→</i><span>Controller</span><i>→</i><span>Service</span><i>→</i><span>Repository</span></div>
+      <p>Spring Boot, REST APIs, Hibernate/JDBC and database-backed service design.</p>
+    </article>
+    <article class="lab-card">
+      <small>DISTRIBUTED SYSTEMS</small><h2>Event-driven workflow</h2>
+      <div class="flow"><span>Order</span><i>→</i><span>Kafka</span><i>→</i><span>Consumers</span><i>→</i><span>Actions</span></div>
+      <p>A project-backed example of using messaging to decouple workflows.</p>
+    </article>
+    <article class="lab-card">
+      <small>AI PIPELINE</small><h2>Data → insight</h2>
+      <div class="flow"><span>Collect</span><i>→</i><span>Extract</span><i>→</i><span>NLP</span><i>→</i><span>Visualize</span></div>
+      <p>Reflects the InsightOSINT project: APIs, extraction, summarization, sentiment analysis and dashboards.</p>
+    </article>
+    <article class="lab-card">
+      <small>COMPUTER VISION</small><h2>Image / video pipeline</h2>
+      <div class="flow"><span>Input</span><i>→</i><span>Detect</span><i>→</i><span>Segment</span><i>→</i><span>Process</span></div>
+      <p>Reflects the Roopantaran project using PyTorch, OpenCV, InsightFace and CUDA.</p>
+    </article>
+  </div>
+</section>
+
+<section class="wrap section">
+  <label>CODING SHOWCASE</label><h2>What I want my code to communicate.</h2>
+  <div class="code-showcase">
+    <div class="code-card"><span>01</span><h3>Problem solving</h3><p>Strong foundation in OOP, Data Structures & Algorithms and Java Collections.</p></div>
+    <div class="code-card"><span>02</span><h3>System thinking</h3><p>Move from requirements → data model → API → services → deployment rather than coding in isolation.</p></div>
+    <div class="code-card"><span>03</span><h3>Production mindset</h3><p>Validate, reconcile, monitor, troubleshoot and verify changes before and after deployment.</p></div>
+    <div class="code-card"><span>04</span><h3>Innovation</h3><p>Explore AI/NLP, computer vision, automation and data visualization to make applications smarter.</p></div>
+  </div>
+</section>
+
+<section class="wrap section roadmap">
+  <label>PORTFOLIO ROADMAP</label><h2>Ideas worth adding next.</h2>
+  <div class="roadmap-grid">
+    <div><b>Live API playground</b><p>Interactive, safe demos for REST endpoints and validation patterns.</p></div>
+    <div><b>DSA visualizer</b><p>Browser-based visual explanations of Java collections and common algorithms.</p></div>
+    <div><b>System design board</b><p>Clickable architecture diagrams for microservices, queues, caching and databases.</p></div>
+    <div><b>AI agent demo</b><p>A small task-oriented agent showcasing tool use, structured outputs and guardrails.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Kirti Vinay Ganore</span>
+  <span>Java · Full Stack · Cloud · AI · Banking Technology</span>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const m = document.getElementById('menu'), n = document.getElementById('nav');
+  if (m) m.onclick = () => n.classList.toggle('open');
+</script>
+
+</body>
+</html>

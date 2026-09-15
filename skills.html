@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Technical skills of Kirti Vinay Ganore across Java, Spring Boot, React, Python, AWS, DevOps, databases and AI.">
+<meta name="theme-color" content="#0d1117">
+<title>Tech Stack | Kirti Vinay Ganore</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span>~/</span>kirti-ganore</a>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Tech Stack</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="lab.html">Dev Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button id="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="page-hero wrap">
+  <div class="eyebrow">04 / TECH STACK</div>
+  <h1>A practical stack for backend, full-stack, cloud and AI work.</h1>
+  <p class="lead">The portfolio is intentionally broad, while Java/Spring Boot and enterprise data remain core strengths.</p>
+</section>
+<section class="wrap section">
+  <div class="skill-matrix">
+    <article><span class="skill-icon">01</span><h2>Languages</h2><div class="skill-list"><b>Java</b><b>Python</b><b>C</b><b>C++</b><b>JavaScript</b></div></article>
+    <article><span class="skill-icon">02</span><h2>Backend</h2><div class="skill-list"><b>Spring Boot</b><b>Hibernate</b><b>REST APIs</b><b>Microservices</b><b>JDBC</b></div></article>
+    <article><span class="skill-icon">03</span><h2>Frontend</h2><div class="skill-list"><b>React.js</b><b>JavaScript</b><b>HTML</b><b>CSS</b></div></article>
+    <article><span class="skill-icon">04</span><h2>Databases</h2><div class="skill-list"><b>SQL</b><b>MySQL</b><b>PostgreSQL</b><b>MongoDB</b><b>SQLite</b></div></article>
+    <article><span class="skill-icon">05</span><h2>Cloud & DevOps</h2><div class="skill-list"><b>AWS</b><b>Docker</b><b>Kubernetes</b><b>Jenkins</b><b>Git / GitLab</b><b>Maven</b><b>CI/CD</b></div></article>
+    <article><span class="skill-icon">06</span><h2>AI / Data</h2><div class="skill-list"><b>NumPy</b><b>SciPy</b><b>PyTorch</b><b>OpenCV</b><b>NLP</b><b>Prompt Engineering</b><b>Claude Agent SDK</b><b>Data Visualization</b></div></article>
+    <article><span class="skill-icon">07</span><h2>Enterprise</h2><div class="skill-list"><b>SAP BusinessObjects</b><b>BIRT</b><b>Data Validation</b><b>Reconciliation</b><b>UAT</b><b>Production Support</b></div></article>
+    <article><span class="skill-icon">08</span><h2>Engineering Core</h2><div class="skill-list"><b>OOP</b><b>DSA</b><b>Java Collections</b><b>SDLC</b><b>Agile / Scrum</b><b>RCA</b><b>Troubleshooting</b></div></article>
+  </div>
+</section>
+<section class="wrap section split-feature">
+  <div>
+    <label>HOW I APPROACH CODE</label>
+    <h2>Readable first. Reliable always.</h2>
+    <p>I value clear service boundaries, predictable APIs, validated data, meaningful error handling, maintainable code and delivery practices that work in real environments.</p>
+  </div>
+  <div class="code large-code"><div>engineering-principles.txt</div><pre>01  Understand the requirement
+02  Model the data and boundaries
+03  Design the API / component
+04  Implement the smallest reliable unit
+05  Validate with edge cases
+06  Automate the repeatable work
+07  Observe, troubleshoot, improve</pre></div>
+</section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Kirti Vinay Ganore</span>
+  <span>Java · Full Stack · Cloud · AI · Banking Technology</span>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const m = document.getElementById('menu'), n = document.getElementById('nav');
+  if (m) m.onclick = () => n.classList.toggle('open');
+</script>
+
+</body>
+</html>

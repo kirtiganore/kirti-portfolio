@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Selected software engineering, microservices, full-stack, AI and computer vision projects by Kirti Vinay Ganore.">
+<meta name="theme-color" content="#0d1117">
+<title>Projects | Kirti Vinay Ganore</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span>~/</span>kirti-ganore</a>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Tech Stack</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="lab.html">Dev Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button id="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="page-hero wrap">
+  <div class="eyebrow">03 / PROJECTS</div>
+  <h1>Projects that show how I think, build and integrate.</h1>
+  <p class="lead">From distributed systems to AI-powered analytics and computer vision.</p>
+</section>
+<section class="wrap section project-list">
+  <article class="project-card project-featured">
+    <div class="project-number">01</div>
+    <div>
+      <small>JAVA / MICROSERVICES / FULL STACK</small>
+      <h2>Food Delivery System</h2>
+      <p>Microservices-based platform with authentication, restaurant/menu management, order tracking, delivery assignment, notifications and payment workflows.</p>
+      <div class="architecture">
+        <span>React</span><i>→</i><span>API Gateway</span><i>→</i><span>Spring Boot</span><i>→</i><span>MySQL</span>
+        <span>Kafka</span><i>·</i><span>Eureka</span><i>·</i><span>Docker</span><i>·</i><span>Kubernetes</span>
+      </div>
+      <p class="muted">Implemented service discovery, API Gateway, Kafka messaging, containerization and CI/CD.</p>
+      <div class="tag-row"><span>Java 17</span><span>Spring Boot</span><span>REST APIs</span><span>MySQL</span><span>Kafka</span><span>React.js</span><span>Docker</span><span>Kubernetes</span><span>Jenkins</span></div>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-number">02</div>
+    <div>
+      <small>AI / FULL STACK / NLP</small>
+      <h2>InsightOSINT</h2>
+      <p>AI-powered OSINT platform that aggregates and analyzes information from multiple sources and presents insights through an interactive dashboard.</p>
+      <div class="feature-pills"><b>Collect</b><b>Extract</b><b>Summarize</b><b>Analyze</b><b>Visualize</b></div>
+      <p class="muted">NLP summarization, sentiment analysis, API integrations, extraction and visual analytics.</p>
+      <div class="tag-row"><span>React.js</span><span>Flask</span><span>Python</span><span>REST APIs</span><span>SQLite</span><span>PostgreSQL</span><span>NLP</span><span>OpenAI API</span></div>
+    </div>
+  </article>
+
+  <article class="project-card">
+    <div class="project-number">03</div>
+    <div>
+      <small>AI / COMPUTER VISION</small>
+      <h2>Roopantaran</h2>
+      <p>AI-driven image/video processing system combining GAN-based face/hair swapping, face detection, segmentation and computer vision for a dental-anxiety reduction use case.</p>
+      <div class="tag-row"><span>Python</span><span>PyTorch</span><span>TorchVision</span><span>OpenCV</span><span>InsightFace</span><span>CUDA</span></div>
+    </div>
+  </article>
+</section>
+
+<section class="wrap section">
+  <label>ENGINEERING LENS</label><h2>What these projects demonstrate</h2>
+  <div class="value-grid">
+    <article><b>Architecture</b><p>Breaking systems into services, APIs and data boundaries with clear responsibilities.</p></article>
+    <article><b>Integration</b><p>Connecting frontend, backend, databases, messaging systems, external APIs and AI capabilities.</p></article>
+    <article><b>Delivery</b><p>Containerization, cloud exposure and CI/CD practices alongside application development.</p></article>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Kirti Vinay Ganore</span>
+  <span>Java · Full Stack · Cloud · AI · Banking Technology</span>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const m = document.getElementById('menu'), n = document.getElementById('nav');
+  if (m) m.onclick = () => n.classList.toggle('open');
+</script>
+
+</body>
+</html>

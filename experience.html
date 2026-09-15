@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Professional experience of Kirti Vinay Ganore at Synechron, HSBC client environment and software development internships.">
+<meta name="theme-color" content="#0d1117">
+<title>Experience | Kirti Vinay Ganore</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span>~/</span>kirti-ganore</a>
+  <nav id="nav">
+    <a href="index.html">Home</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Tech Stack</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="lab.html">Dev Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button id="menu" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="page-hero wrap">
+  <div class="eyebrow">02 / EXPERIENCE</div>
+  <h1>Production experience meets product engineering.</h1>
+  <p class="lead">A combination of enterprise banking technology, reporting/data operations and hands-on full-stack development.</p>
+</section>
+<section class="wrap section">
+  <article class="experience-card featured">
+    <div class="exp-meta"><time>FEB 2026 — PRESENT</time><span>Synechron Technologies · Pune</span></div>
+    <h2>Junior Associate</h2>
+    <p class="company-line">Client: HSBC · Team: MSS Agency Lending · Project: MSS SFT CASH AND SYNTHETIC INDIA</p>
+    <div class="tag-row"><span>SAP BO</span><span>BIRT</span><span>UAT</span><span>Production Support</span><span>Data Reconciliation</span><span>Change Management</span></div>
+    <ul>
+      <li>Support enterprise reporting migration by replicating SAP BusinessObjects reports using BIRT while preserving reporting requirements and business logic.</li>
+      <li>Perform daily data-load monitoring and validation; investigate failures, discrepancies and downstream reporting issues.</li>
+      <li>Validate migrated reports across UAT and Production for data accuracy, parameters, filters, formatting and expected business behaviour.</li>
+      <li>Perform data reconciliation and report comparison between SAP BO and BIRT outputs to identify inconsistencies and improve migration quality.</li>
+      <li>Troubleshoot reporting/data-load issues, perform initial root-cause analysis and coordinate with technical and business stakeholders.</li>
+      <li>Execute pre-deployment and post-deployment validation, raise/track Change Requests and support release readiness.</li>
+      <li>Provide Production support for scheduled data and reporting activities, incident resolution and post-production verification.</li>
+      <li>Work within banking/financial-services processes involving enterprise data, reporting controls, security, privacy and controlled Production environments.</li>
+    </ul>
+  </article>
+
+  <article class="experience-card">
+    <div class="exp-meta"><time>SEP 2024 — JAN 2025</time><span>Prayanam Industries Pvt. Ltd.</span></div>
+    <h2>Software Developer Intern</h2>
+    <div class="tag-row"><span>React.js</span><span>Flask</span><span>Python</span><span>SQLite</span><span>NLP</span><span>Cloud</span></div>
+    <ul>
+      <li>Developed and optimized web applications using React.js and Flask, focusing on application performance and user experience.</li>
+      <li>Integrated APIs for real-time data retrieval and processing and worked with SQLite for data storage and retrieval.</li>
+      <li>Implemented AI/NLP-based insights including summarization and sentiment analysis in an Agile environment.</li>
+      <li>Deployed applications on cloud platforms and gained practical end-to-end application development experience.</li>
+    </ul>
+  </article>
+
+  <article class="experience-card">
+    <div class="exp-meta"><time>AUG 2021 — SEP 2021</time><span>Enovation Skills</span></div>
+    <h2>IoT Intern</h2>
+    <div class="tag-row"><span>Embedded Systems</span><span>Sensors</span><span>Programming</span><span>Testing</span><span>Prototyping</span></div>
+    <p>Hands-on exposure to embedded systems, sensors, programming, testing, prototyping and IoT-oriented development.</p>
+  </article>
+</section>
+
+<section class="wrap section">
+  <label>DOMAIN</label><h2>Banking & enterprise expertise</h2>
+  <div class="grid">
+    <article class="mini-card"><b>Agency Lending</b><p>MSS Agency Lending environment</p></article>
+    <article class="mini-card"><b>SFT</b><p>Securities Financing Transactions</p></article>
+    <article class="mini-card"><b>Cash & Synthetic</b><p>MSS SFT Cash and Synthetic India</p></article>
+    <article class="mini-card"><b>Enterprise Reporting</b><p>SAP BO · BIRT · Migration</p></article>
+    <article class="mini-card"><b>Data Controls</b><p>Validation · Reconciliation · Quality</p></article>
+    <article class="mini-card"><b>Operations</b><p>UAT · Production · CRs · Releases</p></article>
+  </div>
+</section>
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Kirti Vinay Ganore</span>
+  <span>Java · Full Stack · Cloud · AI · Banking Technology</span>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const m = document.getElementById('menu'), n = document.getElementById('nav');
+  if (m) m.onclick = () => n.classList.toggle('open');
+</script>
+
+</body>
+</html>
